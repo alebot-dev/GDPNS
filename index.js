@@ -1,1 +1,1 @@
-// starts the serv
+// starts the express server
