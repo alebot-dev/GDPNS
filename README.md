@@ -1,3 +1,3 @@
 # Info
 ---
-## check the discord server dummy
+## node gdps go brr
