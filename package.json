@@ -1,0 +1,25 @@
+{
+  "name": "gdnps",
+  "version": "1.0.0",
+  "description": "GDPS powered by node",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.13",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alebot-dev/gdnps.git"
+  },
+  "author": "Dice, Rya, Figment",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alebot-dev/gdnps/issues"
+  },
+  "homepage": "https://github.com/alebot-dev/gdnps#readme"
+}
