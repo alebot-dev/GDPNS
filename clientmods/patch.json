@@ -1,0 +1,9 @@
+{
+	{
+		"name": "Placeholder Patch",
+		"desc": "Probably even in the wrong format.",
+		"patch": [
+		{"addr": "0x000000", "on": "00", "off": "00"}
+		]
+	}
+}
