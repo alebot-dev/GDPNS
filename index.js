@@ -1,5 +1,6 @@
 // The official index.js of this project (doot doot)
-const app = require("express")();
+const express = require("express");
+const app = express();
 const fs = require("fs");
 const mongoose = require("mongoose");
 const port = 8080;
@@ -22,6 +23,8 @@ mongoose.connection.on("connected", () => {
 mongoose.connection.on("error", err => {
 	console.error(err);
 });
+
+app.use(express.json());
 
 // yoinked from colon
 let directories = [""];
