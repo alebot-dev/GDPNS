@@ -1,10 +1,3 @@
-// export all the routes from here so that it doesnt turn into spaghetti
-/*
-  example:
-    
-    module.exports = {
-      post: {require("each/post/required/here")}
-    }
-
-
-*/
+module.exports = async (app, req, res) => {
+	if (!req.body.userName || !req.body.password || !req.body.email) return res.status(400).send("-1")
+}
