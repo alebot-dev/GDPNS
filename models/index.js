@@ -1,1 +1,4 @@
-// models index to keep code not spag when requiring mongoose models
+module.exports = {
+    accountComments: require("./acomments"),
+    accounts: require("./accounts")
+}
