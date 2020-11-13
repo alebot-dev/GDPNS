@@ -32,6 +32,6 @@ directories.forEach(d => {
 });
 
 app.get("/database/accounts/registerGJAccount.php", function(req, res) { app.run.register(app, req, res) });
-app.get("*", function(req, res) { res.send("not today") );
+app.get("*", function(req, res) { res.send("not today") } );
 
 app.listen(port, () => console.log(`[ALERT/express server] Server running on local port ${port}`));
