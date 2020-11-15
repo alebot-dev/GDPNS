@@ -1,9 +1,10 @@
-module.exports = async (app, req, res) => {
-	if (!req.body.userName || !req.body.password || !req.body.email) return res.status(400).send("-1")
-	let thing_i_dont_know_if_it_works = {
-		username: req.body.userName,
-		password: req.body.password,
-		email: req.body.email
-	}
-	res.status(200).send(thing_i_dont_know_if_it_works)
-}
+const router = require("express").Router()
+const bodyParser = require("body-parser")
+router.use(bodyParser.json());
+
+router.post("/database/accounts/registerGJAccount.php", async (req, res) => {
+	res.send(req.body).status(200);
+	console.log(req.body);
+});
+
+module.exports = router;
