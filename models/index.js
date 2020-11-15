@@ -1,10 +1,11 @@
 module.exports = {
-    AccountComments: require("./acomments"),
-    Accounts: require("./accounts"),
+    AccountComment: require("./acomments"),
+    Account: require("./accounts"),
     Bans: require("./bans"),
     Comment: require("./comment"),
     FriendReq: require("./friendReqs"),
-    Gauntlets: require("./gauntlets"),
+    Gauntlet: require("./gauntlets"),
     MapPack: require("./mapPacks"),
-    Messages: require("./messages"),
+    Message: require("./messages"),
+    Quest: require("./quests")
 };
