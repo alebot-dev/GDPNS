@@ -1,8 +1,8 @@
 const { Schema, model } = require("mongoose");
 
 const friendReq = Schema({
-    accountID: {type: Number},
-    partialFriendID: {type: Number},
+    fromID: {type: Number},
+    toID: {type: Number},
     message: {type: String},
     sentDate: {default: new Date()},
     ID: {type: Number, unique: true},

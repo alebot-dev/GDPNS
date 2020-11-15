@@ -2,7 +2,7 @@ const { Schema, model } = require("mongoose");
 
 const accounts = Schema({
     accID: {type: Number, index: true, unique: true},
-    userID: {type: Number, index: true, unique: true},
+    //userID: {type: Number, index: true, unique: true}, // userID should always be the same as accID, hence it won't be used
     username: {type: String, index: true, unique: true},
     password: {type: String},
     email: {type: String, unique: true},
