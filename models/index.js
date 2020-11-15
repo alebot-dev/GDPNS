@@ -5,4 +5,5 @@ module.exports = {
     Comment: require("./comment"),
     FriendReq: require("./friendReqs"),
     Gauntlets: require("./gauntlets"),
+    MapPack: require("./mapPacks"),
 };
