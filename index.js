@@ -25,7 +25,6 @@ mongoose.connection.on("error", err => {
 });
 
 app.use(express.json());
-app.use(express.post());
 
 // yoinked from colon
 let directories = [""];
