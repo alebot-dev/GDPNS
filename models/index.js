@@ -6,4 +6,5 @@ module.exports = {
     FriendReq: require("./friendReqs"),
     Gauntlets: require("./gauntlets"),
     MapPack: require("./mapPacks"),
+    Messages: require("./messages"),
 };
