@@ -1,5 +1,6 @@
 module.exports = {
-    accountComments: require("./acomments"),
-    accounts: require("./accounts"),
-    bannedIPs: require("./bannedIPs"),
+    AccountComments: require("./acomments"),
+    Accounts: require("./accounts"),
+    BannedIPs: require("./bannedIPs"),
+    Comment: require("./comment"),
 };
