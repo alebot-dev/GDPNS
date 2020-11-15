@@ -14,7 +14,6 @@ const accounts = Schema({
     messages: {type: Number},
     friendReqs: {type: Number},
     cs: {type: Number},                                     // what the fuck is a cs
-    salt: {type: String},
     registerDate: {default: Date()},
     friendsCount: {type: Number},
     youtube: {type: String},
