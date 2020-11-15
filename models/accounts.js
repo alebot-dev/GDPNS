@@ -6,16 +6,17 @@ const accounts = Schema({
     username: {type: String, index: true, unique: true},
     password: {type: String},
     email: {type: String, unique: true},
-    saveData: {type: String},
-    isAdmin: {type: Boolean, default: false},
     friends: {type: Array},
     blocked: {type: Array},
+<<<<<<< HEAD
     blockedBy: {type: Array},
     messages: {type: Number},
     friendReqs: {type: Number},
     cs: {type: Number},                                     // what the fuck is a cs
+=======
+    cs: {type: Number}, // Comment History, no known use afaik
+>>>>>>> d89c5857a6c5a3d3cb55229f48d9f3670580b643
     registerDate: {default: Date()},
-    friendsCount: {type: Number},
     youtube: {type: String},
     twitter: {type: String},
     twitch: {type: String},
