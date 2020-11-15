@@ -8,7 +8,9 @@ const accounts = Schema({
     email: {type: String, unique: true},
     friends: {type: Array},
     blocked: {type: Array},
-    cs: {type: Number}, // Comment History, no known use afaik
+	ms: {type: Number},
+	frs {type: Number},
+    cs: {type: Number},
     registerDate: {default: Date()},
     youtube: {type: String},
     twitter: {type: String},
