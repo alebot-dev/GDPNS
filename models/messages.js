@@ -1,11 +1,9 @@
 const { Schema, model } = require("mongoose");
 
 const message = Schema({
-    userID: {type: Number},
-    userName: {type: String},
+    accID: {type: Number},
     subject: {type: String},
     body: {type: String},
-    accID: {type: Number},       // Do we need this?
     messageID: {type: Number, unique: true, index: true},
     recieverID: {type: Number},
     timestamp: {default: new Date().getTime()},
