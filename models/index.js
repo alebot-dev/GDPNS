@@ -3,4 +3,5 @@ module.exports = {
     Accounts: require("./accounts"),
     Bans: require("./bans"),
     Comment: require("./comment"),
+    FriendReq: require("./friendReqs")
 };
