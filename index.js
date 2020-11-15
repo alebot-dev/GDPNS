@@ -25,6 +25,7 @@ mongoose.connection.on("error", err => {
 });
 
 app.use(express.json());
+app.use(express.post());
 
 // yoinked from colon
 let directories = [""];
@@ -34,7 +35,7 @@ directories.forEach(d => {
   fs.readdirSync('./endpoints/' + d).forEach(x => {if (x.includes('.')) app.run[x.split('.')[0]] = require('./endpoints/' + d + "/" + x) });
 });
 
-app.get("/database/accounts/registerGJAccount.php", function(req, res) { app.run.register(app, req, res) });
+app.post("/database/accounts/registerGJAccount.php", function(req, res) { app.run.register(app, req, res) });
 app.get("*", function(req, res) { res.send("not today") } );
 
 app.listen(port, () => console.log(`[ALERT/express server] Server running on local port ${port}`));
