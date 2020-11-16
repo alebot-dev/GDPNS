@@ -7,5 +7,6 @@ module.exports = {
     Gauntlet: require("./gauntlets"),
     MapPack: require("./mapPacks"),
     Message: require("./messages"),
-    Quest: require("./quests")
+    Quest: require("./quests"),
+    DailyFeature: require("./dailyFeature"),
 };
