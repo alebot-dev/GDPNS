@@ -5,4 +5,4 @@ const bans = Schema({
 	IPs: {type: Array} // banned IPs, if people try to bypass bans by making a new acc
 });
 
-module.exports = model("BannedIPs", bannedIPs);
+module.exports = model("BannedIPs", bans);

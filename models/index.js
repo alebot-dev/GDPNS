@@ -2,7 +2,7 @@ module.exports = {
     AccountComment: require("./acomments"),
     Account: require("./accounts"),
     Bans: require("./bans"),
-    Comment: require("./comment"),
+    Comment: require("./comments"),
     Cpshare: require("./cpshares"),
     DailyFeature: require("./dailyFeature"),
     FriendReq: require("./friendReqs"),
@@ -14,6 +14,6 @@ module.exports = {
     Quest: require("./quests"),
     Report: require("./reports"),
     RoleAssign: require("./roleAssign"),
-    Song: require("./song"),
+    Song: require("./songs"),
     Suggest: require("./suggest"),
 };

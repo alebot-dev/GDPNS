@@ -2,7 +2,7 @@ const { Schema, model } = require("mongoose");
 
 const dailyFeature = Schema({
     levelID: {type: Number},
-    timestamp: {default: new Date().getTime()},
+    timestamp: {type: Number, default: new Date().getTime()},
     type: {type: Number, default: 0}
 });
 

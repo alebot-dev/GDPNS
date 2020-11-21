@@ -3,8 +3,9 @@ const bodyParser = require("body-parser")
 router.use(bodyParser.json());
 
 router.post("/registerGJAccount.php", async (req, res) => {
-	res.send(req.body).status(200);
-	console.log(req.body);
+	const { Account } = require("../models/index");
+	console.log(new Account);
+	res.send("1").status(200);
 });
 
 module.exports = router;

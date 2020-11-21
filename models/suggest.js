@@ -9,7 +9,7 @@ const suggest = Schema({
     suggestFeatured: {type: Boolean},
     suggestAuto: {type: Boolean},
     suggestDemon: {type: Boolean},
-    timestamp: {default: new Date().getTime()}
+    timestamp: {type: Number, default: new Date().getTime()}
 });
 
 module.exports = model("Suggest", suggest);

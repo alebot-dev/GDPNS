@@ -6,7 +6,7 @@ const comment = Schema({
     comment: {type: String},
     levelID: {type: String},
     commentID: {type: String, unique: true},
-    timestamp: {default: new Date().getTime()},
+    timestamp: {type: Number, default: new Date().getTime()},
     likes: {type: Number, defualt: 0},
     percent: {type: Number, default: 0},
     spam: {type: Boolean, default: false}

@@ -6,7 +6,7 @@ const message = Schema({
     body: {type: String},
     messageID: {type: Number, unique: true, index: true},
     recieverID: {type: Number},
-    timestamp: {default: new Date().getTime()},
+    timestamp: {type: Number, default: new Date().getTime()},
     new: {type: Boolean, default: true}
 });
 
