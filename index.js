@@ -28,7 +28,7 @@ mongoose.connection.on("error", err => {
 app.use(express.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
-app.use("/", endpoints.register);
+app.use("/database/accounts", endpoints.accounts);
 
 app.get("*", (req, res) => {
 	res.send("Haha nooooooooOOOOOOOOOOOOOOOOOOOOOO");

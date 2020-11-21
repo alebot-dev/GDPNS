@@ -1,3 +1,3 @@
 module.exports = {
-    register: require("./register"),
+    accounts: require("./db_accounts"),
 }
