@@ -7,8 +7,9 @@ module.exports = {
     FriendReq: require("./friendReqs"),
     Friendship: require("./friendships"),
     Gauntlet: require("./gauntlets"),
+    LevelScore: require("./levelScores"),
     MapPack: require("./mapPacks"),
     Message: require("./messages"),
     Quest: require("./quests"),
-    LevelScore: require("./levelScores"),
+    Report: require("./reports"),
 };
