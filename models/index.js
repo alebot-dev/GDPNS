@@ -12,4 +12,5 @@ module.exports = {
     Message: require("./messages"),
     Quest: require("./quests"),
     Report: require("./reports"),
+    RoleAssign: require("./roleAssign"),
 };
