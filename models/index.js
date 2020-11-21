@@ -14,4 +14,5 @@ module.exports = {
     Report: require("./reports"),
     RoleAssign: require("./roleAssign"),
     Song: require("./song"),
+    Suggest: require("./suggest"),
 };
