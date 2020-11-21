@@ -10,4 +10,5 @@ module.exports = {
     MapPack: require("./mapPacks"),
     Message: require("./messages"),
     Quest: require("./quests"),
+    LevelScore: require("./levelScores"),
 };
