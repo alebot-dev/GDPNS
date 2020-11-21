@@ -13,4 +13,5 @@ module.exports = {
     Quest: require("./quests"),
     Report: require("./reports"),
     RoleAssign: require("./roleAssign"),
+    Song: require("./song"),
 };
