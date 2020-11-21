@@ -3,6 +3,7 @@ module.exports = {
     Account: require("./accounts"),
     Bans: require("./bans"),
     Comment: require("./comment"),
+    Cpshare: require("./cpshares"),
     DailyFeature: require("./dailyFeature"),
     FriendReq: require("./friendReqs"),
     Friendship: require("./friendships"),
